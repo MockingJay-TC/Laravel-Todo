@@ -4,3 +4,29 @@ todos: table
 
 title: string
 completed: boolean
+
+
+Now we have to create model todo for the todo table
+
+then a migration for ctreating the table of todo
+
+now we need some routes to use CRUD on the todo
+
+then a controller, where we can put all the logics of the CRUD so we can easily interact 
+
+using php artisan all these can be done using eloquent.
+
+
+1. after creating all these,
+add the  needed fields to the migration file,
+then php artisan migrate
+
+2. creating views and routes
+
+go to web.php and create a get route to return the index view of the todo
+
+controller -> "name" + Controller
+view -> blade.php 
+Routes -> web.php
+
+
