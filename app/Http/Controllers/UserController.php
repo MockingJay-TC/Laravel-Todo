@@ -32,7 +32,7 @@ class UserController extends Controller
         //         'victor', 'victoraremu123@gmail.com', 'password'
         //     ]);
 
-        // DB::update('update users set name = ? where id = 1', ["mockingjay"]);
+        DB::update('update users set name = ? where id = 4', ["mockingjay"]);
 
         // DB::delete('delete from users where id = 1');
 
@@ -47,9 +47,9 @@ class UserController extends Controller
 
 
         // to delete a particular User from the table
-        User::where('id', 3)->delete();
+        User::where('id', 4)->delete();
 
-        // User::where('id', 1) -> update(['password'=> 'password']);
+        User::where('id', 5) -> update(['name'=> 'password']);
 
 
         // $data = [

@@ -1,0 +1,6 @@
+Mini Todo App in laravel;
+
+todos: table
+
+title: string
+completed: boolean
